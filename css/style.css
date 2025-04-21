@@ -8,19 +8,15 @@ ul,ol{
 }
 .common-button{
     background: #FCD980;
-    color: #1B1C2B;
     font-weight: 600;
     font-family: "Manrope", sans-serif;
     font-size: 18px;
     border: 1px solid transparent;
-
     padding: 16px 56px;
     border-radius: 41px;
     transition: .4s;
     display: inline-block;
-   
-   
-    
+    color: #1B1C2B;
 }
 .common-button:hover{
     background: transparent;
@@ -41,9 +37,7 @@ nav{
 .navbar-nav{
     column-gap: 32px;
 }
-.nav-item{
 
-}
 .nav-link{
     font-size: 16px;
     font-weight: 500;
@@ -62,14 +56,10 @@ nav{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     border: 1px solid #F4F6FC;
-
     padding: 16px 48px;
     border-radius: 41px;
     margin-left: 48px;
     transition: .4s;
-    
-
-   
 
 }
 .nav-button:hover{
@@ -103,6 +93,25 @@ Banner part start
     width: 562px;
     padding-top: 16px;
     padding-bottom: 48px;
+}
+.banner .icon-button{
+    color: white;
+    position: relative;
+    margin-left: 40px;
+}
+.banner .icon-button .icon {
+    position: absolute;
+    top: 6px;
+    left: 90px;
+    opacity: 0;
+    transition: .4s;
+    font-size: 16px;
+}
+.banner .icon-button:hover .icon{
+    left: 100px;
+    opacity: 1;
+
+
 }
 /* ===============
 Banner part end
