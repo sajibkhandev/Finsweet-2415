@@ -6,6 +6,28 @@ a{
 ul,ol{
     list-style: none;
 }
+.common-button{
+    background: #FCD980;
+    color: #1B1C2B;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    border: 1px solid transparent;
+
+    padding: 16px 56px;
+    border-radius: 41px;
+    transition: .4s;
+    display: inline-block;
+   
+   
+    
+}
+.common-button:hover{
+    background: transparent;
+    border-color: #fff;
+    color: white;
+
+}
 /* common css end */
 
 
@@ -44,9 +66,44 @@ nav{
     padding: 16px 48px;
     border-radius: 41px;
     margin-left: 48px;
+    transition: .4s;
+    
+
    
+
+}
+.nav-button:hover{
+    background: #FCD980;
+    color: #1B1C2B;
+    border-color: #FCD980;
 
 }
 /* ===============
 navber part end
+=============== */
+/* ===============
+Banner part start
+=============== */
+.banner{
+    background: #1C1E53;
+    padding: 128px 0px;
+}
+.banner h1{
+    color: #fff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+    line-height: 74px;
+}
+.banner p{
+    color: rgba(255, 255, 255,0.70);
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    width: 562px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+/* ===============
+Banner part end
 =============== */
