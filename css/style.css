@@ -196,3 +196,85 @@ wrok part start
 /* ===============
 wrok part end
 =============== */
+/* ===============
+project part start
+=============== */
+.project{
+    padding: 128px 0px;
+}
+.project .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 64px;
+
+}
+.project h4{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+}
+.project p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+
+}
+.project .image-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+   
+}
+.project .project-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.project .overly{
+    width: 52%;
+    height: 100%;
+    background-image: linear-gradient(rgba(28, 30, 83,0.42),#1C1E53);
+    position: absolute;
+    top: 0;
+    left: -52%;
+    transition: .5s;
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 35px;
+}
+.project .project-box:hover .overly{
+    left: 0;
+
+}
+
+
+.project img{
+    width: 100%;
+}
+
+.combo-project h2{
+    color: white;
+    font-size: 24px;
+
+}
+.combo-project p{
+    color: white;
+    font-size: 16px;
+
+}
+.combo-project .common-animation a{
+    color: #FCD980;
+
+}
+.combo-project .common-animation{
+    color: #FCD980;
+
+}
+/* ===============
+project part end
+=============== */
