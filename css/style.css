@@ -24,6 +24,43 @@ ul,ol{
     color: white;
 
 }
+.common-title h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+}
+.common-title p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    width: 405px;
+
+}
+.common-title .common-animation{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2405F2;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+
+}
+.common-title .common-animation i{
+   position: absolute;
+   top: 50%;
+   left: 200px;
+   transform: translateY(-50%);
+   transition: .5s;
+   
+}
+.common-title .common-animation:hover i{
+    left: 230px;
+    
+
+}
+
 /* common css end */
 
 
@@ -115,4 +152,47 @@ Banner part start
 }
 /* ===============
 Banner part end
+=============== */
+/* ===============
+wrok part start
+=============== */
+.work{
+    background: #F4F6FC;
+    padding: 128px 0px;
+}
+
+.work .box{
+    
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+
+}
+
+.work .box .item{
+   width: 50%;
+   
+
+}
+.work .box .item h4{
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+
+}
+.work .box .item p{
+    color: #282938;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    width: 303px;
+
+}
+
+
+/* ===============
+wrok part end
 =============== */
