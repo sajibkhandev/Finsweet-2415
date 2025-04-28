@@ -278,3 +278,67 @@ project part start
 /* ===============
 project part end
 =============== */
+/* ===============
+Feature part start
+=============== */
+.feature{
+    background: #F4F6FC;
+    padding: 128px 0px;
+    
+}
+.feature h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    
+    text-align: center;
+}
+.feature h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    width: 630px;
+    margin: 0 auto;
+    padding: 12px 0px 47px 0px;
+
+
+}
+.feature .card{
+    width: 100% !important;
+    padding: 58px 32px 48px 48px;
+    border: 0px;
+    border-radius: 0px;
+   
+}
+.feature .card img{
+    width: 7% !important;
+}
+.feature .card-body{
+    padding: 0;
+}
+.feature .card .card-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+
+}
+.feature .card .card-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+
+}
+.feature .row{
+   row-gap: 24px;
+
+}
+/* ===============
+Feature part end
+=============== */
