@@ -339,6 +339,56 @@ Feature part start
    row-gap: 24px;
 
 }
+
 /* ===============
 Feature part end
+=============== */
+/* ===============
+Faq part start
+=============== */
+.faq{
+    padding: 128px 0px;
+}
+.faq .common-title .common-animation i {
+    left: 245px;
+}
+.faq .common-title .common-animation:hover i {
+    left: 280px;
+}
+.faq .accordion-item{
+    border: 0px;
+}
+
+.faq .accordion-button{
+    font-size: 24px;
+}
+.faq .accordion-button span{
+    color: #2405F2;
+    padding-right: 60px;
+}
+.faq .accordion-body{
+    padding: 0px 110px;
+    border-bottom: 1px solid #ECECF1;
+    padding-bottom: 48px;
+    padding-top: 16px;
+    margin-bottom: 10px;
+}
+
+.faq .accordion-button::after{
+    background-image: none !important;
+}
+
+.faq .accordion-button:not(.collapsed)::after{
+    content: "x";
+    transform: rotate(0) translateY(-50%);
+   
+}
+.faq .accordion-button::after {
+    content: "+";
+    transform: rotate(0) translateY(-50%);
+    
+
+}
+/* ===============
+Faq part end
 =============== */
