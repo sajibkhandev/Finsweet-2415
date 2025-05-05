@@ -1,0 +1,118 @@
+@media (min-width:320px) and (max-width:575.99px){
+    .navbar-toggler{
+        color: white;
+        font-size: 16px;
+        border: 1px solid white;
+       
+    }
+    .navbar-toggler:focus {
+        
+        outline: 0 !important;
+        box-shadow: 0 0 0 !important;
+    }
+    .navbar-collapse{
+        background: rgba(255, 255, 255,0.5);
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    .navbar-nav{
+        align-items: center;
+        row-gap: 30px;
+        padding: 30px 0px;
+
+    }
+    .nav-link{
+        color: black;
+        font-size: 14px;
+
+    }
+    .nav-button {
+       
+        padding: 10px 28px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        
+        
+    }
+    .nav-common-button{
+        text-align: center;
+        font-size: 14px;
+
+    }
+
+    /* navber responsive done */
+    /* banner responsive start */
+    .banner {
+        padding: 92px 0px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+        line-height: 58px;
+    }
+    .banner p {
+       
+        font-size: 14px;
+        width: auto;
+        padding-top: 0px;
+        
+    }
+    .common-button {
+        padding: 11px 20px;
+       
+    }
+    .banner .icon-button {
+        margin-left: 20px;
+    }
+    .banner .banner-image{
+        text-align: center;
+        padding-top: 80px;
+        
+    }
+    .banner .banner-image img{
+        width: 80%;
+
+    }
+
+    /* Wrok Responsive start */
+    .common-title h2 {
+        font-size: 32px;
+        
+    }
+    .common-title p {
+        font-size: 14px;
+        width: auto;
+    }
+    .work .box {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .work .box .item{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .work .box .item p {
+        color: #282938;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        width: auto;
+    }
+
+
+    /*  */
+
+    .feature h2 {
+        font-size: 32px;
+        width: auto;
+       
+       
+    }
+    .feature .card img {
+        width: 11% !important;
+    }
+
+}

@@ -8,6 +8,8 @@ ul,ol{
 }
 .common-button{
     background: #FCD980;
+    padding: 18px 38px;
+    border-radius: 41px;
     
     
 }
@@ -90,6 +92,7 @@ nav{
     border-radius: 41px;
     margin-left: 48px;
     transition: .4s;
+    display: inline-block;
 
 }
 .nav-button:hover{
